@@ -1,0 +1,85 @@
+#myDiv{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.myChildDiv {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 2px;
+}
+
+/* Color Psychology */
+
+#colorPsychology {
+    display: flex;
+    background-image: url(./assets/colorsbg.png);
+    background-size: cover;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding: 2px;
+}
+
+#colorPsychology .btn {
+    margin: 2px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 20px;
+}
+.whiteFont{
+    color: white;
+}
+
+#colorPsychology .btn:hover {
+    opacity: 0.6;
+}
+
+.cpRed {
+    background-color: #E91D2B;
+}
+
+.cpOrange {
+    background-color: #F4891E;
+}
+
+.cpYellow {
+    background-color: #E9CF2A;
+}
+
+.cpGreen {
+    background-color: #0CA450;
+}
+
+.cpBlue {
+    background-color: #44A0E3;
+}
+
+.cpPink {
+    background-color: #D80A91;
+}
+
+.cpPurple {
+    background-color: #693698;
+}
+
+.cpBrown {
+    background-color: #6C330D;
+}
+
+.cpBlack {
+    background-color: #101114;
+}
+
+.cpWhite {
+    background-color: #c9c9c9;
+    color: #101114;
+}
+
+/* ------------------------------------------------------------------- */
