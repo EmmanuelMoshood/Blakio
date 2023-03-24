@@ -49,3 +49,24 @@ const createChild = () => {
     Honest: "cpWhite"
 }
 
+//function that loads the dom elements dynamically
+const mapColorData = () => {
+    
+    //for each element in the obj coloerMap
+    for(let text in colorMap){
+        
+        //create a new div with a class and inner text
+        let divClass = colorMap[text] 
+        const newDiv = document.createElement("div")
+        newDiv.classList.add(divClass)
+        newDiv.innerText = text;
+        newDiv.classList.add("btn")
+        if(colorMap[text] === "cpBlack"){
+            newDiv.classList.add("whiteFont")
+        }
+        //select which element on the DOM to add it to 
+        const colorPsychology = document.getElementById("colorPsychology")
+        colorPsychology.appendChild(newDiv);
+    }
+}
+mapColorData();
